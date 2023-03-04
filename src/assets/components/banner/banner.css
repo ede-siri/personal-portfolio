@@ -31,3 +31,7 @@ button{
     font-weight: bold;
     font-size: 20px;
 }
+button:hover{
+    background-color: #fc567d;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.Projects{
+    height: 80vh;
+    text-align: center;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.Projects h1{
+    margin: 0 auto;
+}
+
+.card{
+    width: 450px;
+    height: 600px;
+    display: inline-flex;
+    margin: 3% 1%;
+    border-radius: 20px;
+}
+.one{
+    background-color: #FF8AA5;
+}
+.two{
+    background-color: #ABFE58;
+}
+.three{
+    background-color: #84E5FF;
+}
