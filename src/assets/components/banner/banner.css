@@ -1,0 +1,33 @@
+.Banner{
+    width: 95%;
+    display: flex;
+    margin-top: 5%;
+    height: 80vh;
+    color: white;
+}
+
+ img{
+    width: 700px;
+    height: 800px;
+    
+}
+.bannertext{
+    margin: 10%;
+    margin-left:5%;
+}
+h1{
+    font-size: 60px;
+    width: 70%;
+}
+p{
+    font-size: 30px;
+}
+button{
+    color: black;
+    background-color: #ABFE58;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 20px;
+}

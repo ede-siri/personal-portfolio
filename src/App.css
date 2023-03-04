@@ -1,5 +1,11 @@
 #root {
-  max-width: 1280px;
-  box-sizing: border-box;
-  
+  margin: 0%;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(178.28deg, #FF89A4 26.88%, rgba(255, 137, 164, 0) 97.08%);
 }
+
+.App{
+  height: 100vh;
+}
+
