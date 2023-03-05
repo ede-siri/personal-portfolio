@@ -6,13 +6,17 @@ nav a {
   text-decoration: none;
   color: black;
 }
-li {
-  list-style: none;
-  padding: 20px 20px;
+li, i{
+  padding: 20px;
   display: inline-flex;
-  margin: 0 auto;
   font-weight: 500;
 }
+
+i{
+  visibility: hidden;
+  align-self: center;
+}
+
 ul {
   width: 90%;
   background-color: white;
@@ -24,6 +28,8 @@ ul {
   z-index: 9;
   padding: 0;
   filter: drop-shadow(0px 4px 4px rgba(170, 170, 170, 0.25));
+  display: flex;
+  
 }
 a:hover {
   letter-spacing: 2px;
@@ -31,10 +37,17 @@ a:hover {
   font-weight: 600;
 }
 .logo {
-  font-weight: 800;
   font-size: 20px;
   margin-right: auto;
+  font-weight: bold;
 }
-.home {
-  margin-left: 60%;
+
+@media only screen  and  (max-width: 600px){
+  .mobile{
+    display: none;
+  }
+  i{
+    visibility:visible;
+  }
+  
 }

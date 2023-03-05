@@ -4,6 +4,7 @@ import "./banner.css";
 function Banner() {
   return (
     <div className="Banner">
+      <div className="BannerContent">
       <div className="bannertext">
       <h1>I build things for the web</h1> 
       <p>
@@ -12,8 +13,8 @@ function Banner() {
         </p>
         <button>View my Projects</button>
       </div>
-        <img src="public/images/me.png" alt="" srcset="" />
-        
+        <img src="/images/me.png" alt="" srcset="" />
+      </div>
       </div>
 
     

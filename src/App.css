@@ -4,8 +4,19 @@
   height: 100vh;
   background: linear-gradient(178.28deg, #FF89A4 26.88%, rgba(255, 137, 164, 0) 97.08%);
 }
-
+@media only screen  and  (max-width: 1200px) {
+  #root{
+    height: 60vh;
+  }
+}
 .App{
   height: 100vh;
 }
-
+@media only screen  and  (max-width: 600px){
+  .App{
+    overflow-x: hidden;
+  }
+  #root{
+    height: 50vh;
+  }
+}

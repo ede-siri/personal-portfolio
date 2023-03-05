@@ -6,7 +6,10 @@ function NavBar() {
     <div>
       <nav>
         <ul>
-          <li className ="logo">Edesiri</li>
+          <li className="logo">Edesiri</li>
+          <i class="fa-solid fa-bars"></i>
+          
+          <div className="mobile">
           <li className="home">
             <a href="index.html">Home</a>
           </li>
@@ -19,6 +22,8 @@ function NavBar() {
           <li>
             <a href="contact.html"> Contact</a>
           </li>
+          </div>
+         
         </ul>
       </nav>
     </div>

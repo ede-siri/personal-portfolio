@@ -3,7 +3,6 @@
     width: 100%;
     text-align: center;
     background: linear-gradient(359.27deg, #84E5FF 0.57%, rgba(217, 217, 217, 0) 98.16%);
-    
 }
 .Skills h1{
     margin: 0 auto;
@@ -21,4 +20,44 @@
     height: 150px;
     border-radius: 20px; 
     margin-top: 3%;
+}
+@media only screen  and  (max-width: 600px){
+    .Skills{
+        height: 25vh;
+    }
+    .Skills h1{
+        margin-top: 30%;
+        font-size: 1.5rem;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 3%;
+        gap: 10px;
+    }
+    .Skills img{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+
+
+
+@media only screen  and  (max-width: 1200px) and (min-width: 600px){
+    .Skills{
+        margin-top: 50px;
+        height:23vh;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 3%;
+    }
+    .Skills img{
+        width: 70px;
+        height: 70px;
+        
+        
+    }
 }

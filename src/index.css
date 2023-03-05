@@ -4,9 +4,11 @@ body{
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 :root {
-
+  width: 100%;
   font-weight: 400;
 }
+
